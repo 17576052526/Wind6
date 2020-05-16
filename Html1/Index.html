@@ -1,0 +1,479 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>珠海网站建设,网站建设,网站制作,珠海网站设计-易风网络</title>
+    <meta name="Keywords" content="珠海网站建设,网站建设,珠海网站设计,网站制作" />
+    <meta name="Description" content="易风是网站建设专家,7年已为众多企业及上市公司提供超期望值的互联网服务" />
+    <link rel="Stylesheet" type="text/css" href="/sys/css.css" />
+    <link rel="Stylesheet" type="text/css" href="/css/Master.css" />
+    <script type="text/javascript" src="/sys/jquery-1.8.3.min.js"></script>
+
+    <script type="text/javascript" src="/js/WindFade.js"></script>
+    <link rel="Stylesheet" type="text/css" href="/css/WindFade.css" />
+    <link rel="Stylesheet" type="text/css" href="/css/Index.css" />
+    <script type="text/javascript">
+        $(function () {
+            $('#WindFade').WindFade({
+                interval: 5000,
+                speed: 500
+            });
+            
+            $('.b21 .b21_li').hover(function () {
+                var obj = $(this);
+                obj.find('.back').css('height', "250px");
+                obj.find('.back').animate({ opacity: 0.8 }, 300);
+                obj.find('p').animate({ bottom: "190px" }, 300, function () { obj.find('.b211').fadeIn(300); });
+            }, function () {
+                var obj = $(this);
+                obj.find('.back').css('height', "44px");
+                obj.find('.back').animate({ opacity: 0.6 }, 300);
+                obj.find('p').stop();
+                obj.find('p').animate({ bottom: "0px" }, 300);
+                obj.find('.b211').fadeOut(300);
+            });
+            $("#appWeb img").hover(function () {
+                $('#appImg').remove();
+                var left = $(this).offset().left + 25;
+                var top = $(this).offset().top + 25;
+                $('body').append('<img src="' + $(this).attr('src') + '" id="appImg" style="position:absolute;left:' + left + 'px;top:' + top + 'px;width:0px;height:0px;z-index:10;" />')
+                $('#appImg').animate({ width: 150, height: 150, left: 550, top: 700 }, 300);
+            }, function () {
+                var left = $(this).offset().left + 25;
+                var top = $(this).offset().top + 25;
+                $('#appImg').animate({ width: 0, height: 0, left: left, top: top }, 300, function () { $('#appImg').remove(); });
+            });
+        });
+    </script>
+</head>
+<body>
+    <!--头部-->
+    <div class="top width">
+        <img src="/img/logo.jpg" class="floL" />
+        <div class="floR">
+            <div class="t1">
+                <span style="background:url(/img/ico.png) no-repeat 0px -207px;">服务热线：13418980092</span>
+                <span class="marL20" style="background:url(/img/qq.jpg) no-repeat 0px 4px;">客服QQ：389022755</span>
+                <em class="floR"><a href="/About/4.html">联系我们</a></em>
+                <em class="floR"><a href="http://wpa.qq.com/msgrd?v=3&uin=389022755&site=qq&menu=yes" target="_blank">在线留言</a></em>
+                <h1></h1>
+            </div>
+            <ul class="nav floLg aNone" id="nav">
+                <li><a href="/Index.html">首页</a></li>
+                <li>
+                    <b>·</b><a href="/Case.html">成功案例</a>
+                    <div class="nav1">
+                        <div class="nav2"></div>
+                        <a href="/case.html">成功案例</a>
+                        <a href="/kehu.html">客户列表</a>
+                    </div>
+                </li>
+                <li><b>·</b><a href="/News/1.html">易风资讯</a></li>
+                <li>
+                    <b>·</b><a href="/Solution/1.html">解决方案</a>
+                    <div class="nav1" style="left:-200px;width:500px;text-align:left;">
+                        <div class="nav2" style="left:260px;"></div>
+                        <div style="float:left;padding:0px 40px 0px 20px;border-right:1px solid #ccc;">
+                        <a href="/Solution/1.html">教育培训</a>
+                        <a href="/Solution/2.html">软件IT</a>
+                        <a href="/Solution/3.html">手机数码</a>
+                        <a href="/Solution/4.html">钟表高端奢侈品</a>
+                        <a href="/Solution/5.html">大型门户</a>
+                        <a href="/Solution/6.html">网上商城电子商务</a>
+                        <a href="/Solution/7.html">房地产,地产项目</a>
+                        </div>
+                        <div style="float:left;padding:0px 40px 0px 30px;border-right:1px solid #ccc;">
+                        <a href="/Solution/8.html">集团上市公司官</a>
+                        <a href="/Solution/9.html">数码,电器产品</a>
+                        <a href="/Solution/10.html">美容,化妆品行业</a>
+                        <a href="/Solution/11.html">装饰公司</a>
+                        <a href="/Solution/12.html">金融行业</a>
+                        <a href="/Solution/13.html">医药医疗</a>
+                        <a href="/Solution/14.html">LED行业</a>
+                        </div>
+                        <div style="float:left;padding:0px 40px 0px 30px;">
+                        <a href="/Solution/15.html">节能环保</a>
+                        <a href="/Solution/16.html">物流行业</a>
+                        <a href="/Solution/17.html">安防行业</a>
+                        <a href="/Solution/18.html">旅游公司</a>
+                        <a href="/Solution/19.html">学校校园</a>
+                        <a href="/Solution/20.html">服装箱包皮具</a>
+                        <a href="/Solution/21.html">营销型网站</a>
+                        </div>
+                        <h1></h1>
+                    </div>
+                </li>
+                <li><b>·</b><a href="/Process.html">服务流程</a></li>
+                <li>
+                    <b>·</b><a href="/Construct/1.html">网站建设</a>
+                    <div class="nav1">
+                        <div class="nav2"></div>
+                        <a href="/Construct/1.html">品牌创意网站</a>
+                        <a href="/Construct/2.html">企业官方网站</a>
+                        <a href="/Construct/3.html">上市公司网站</a>
+                        <a href="/Construct/4.html">B2C电子商务网站</a>
+                        <a href="/Construct/5.html">门户类网站</a>
+                        <a href="/Construct/6.html">专题活动网站</a>
+                    </div>
+                </li>
+                <li>
+                    <b>·</b><a href="/About/1.html">我们的实力</a>
+                    <div class="nav1">
+                        <div class="nav2"></div>
+                        <a href="/About/1.html">关于易风</a>
+                        <a href="/About/2.html">易风与众不同</a>
+                        <a href="/About/3.html">理念与信仰</a>
+                        <a href="/About/4.html">联系我们</a>
+                    </div>
+                </li>
+                <h1></h1>
+            </ul>
+        </div>
+        <h1></h1>
+        <script type="text/javascript">$('#nav li').hover(function () { $(this).children('.nav1').slideDown(300); }, function () { $(this).children('.nav1').slideUp(300); });</script>
+    </div>
+    <!--中间部分-->
+    <div class="body marB20">
+        <div id="WindFade">
+        <div class="WindDiv">
+            <ul>
+                <li><a href="javascript:void(0);" url="/img/banner1.jpg"></a></li>
+                <li><a href="javascript:void(0);" url="/img/banner2.jpg"></a></li>
+                <li><a href="javascript:void(0);" url="/img/banner3.jpg"></a></li>
+            </ul>
+        </div>
+        <ol class="WindBtn"></ol>
+        <!--不要左右按钮可直接删除html代码-->
+        <!--
+        <img src="img/btnLeft.png" class="WindLeft" style="display:none;position:absolute;left:40px;top:40%;cursor:pointer;" />
+        <img src="img/btnRight.png" class="WindRight" style="display:none;position:absolute;right:40px;top:40%;cursor:pointer;" />
+        -->
+        </div>
+        <div class="b1">
+            <div class="width aNone floLg">
+                <a href="/Case.html" style="border-left-style:none;"><span style="background-position:0px -279px;"></span>成功案例</a>
+                <a href="/About/4.html#leave"><span style="background:url(/img/right5.png) no-repeat 0px 9px;"></span>客户留言</a>
+                <a href="/Construct/1.html"><span style="background-position:-220px -279px;"></span>网站建设</a>
+                <a href="/About/1.html"><span style="background-position:-330px -279px;"></span>我们的实力</a>
+                <h1></h1>
+            </div>
+        </div>
+        <div class="b2">
+            <div class="title">
+                <p>核心业务</p>
+                <h6></h6>
+                <h5>Core Business</h5>
+            </div>
+            <ul class="b21 width floLg marB10g">
+                <li class="b21_li">
+                    <img src="/img/index1.jpg" />
+                    <div class="back"></div>
+                    <p>金融行业</p>
+                    <div class="b211" style="display:none;">
+                        <h6 class="marT10">
+                            <a href="http://www.bosera.com/index.html" target="_blank">博时基金</a>
+                            <a href="http://www.xiaoniu66.com/" target="_blank">小牛在线p2p平台</a>
+                            <a href="http://www.cf88.com.cn/" target="_blank">中科创官网</a>
+                            <a href="http://www.yourmoon.com/" target="_blank">88财富p2p平台</a>
+                            <a href="http://www.benbaocar.com/" target="_blank">奔宝</a>
+                            <a href="http://www.zxfinance.com/" target="_blank">中兴微代</a>
+                            <a href="http://www.gstz888.com/" target="_blank">宜宾高胜投资</a>
+                        </h6>
+                        <a href="case.html"></a>
+                    </div>
+                </li>
+                <li style="background-color:#19A6DB;">
+                    <p style="top:15px;">品牌创意网站</p>
+                    <div class="b211">
+                        <h6 class="marT10">
+                            <a href="http://www.ruyige.net/" target="_blank">普陀山国际文化</a>
+                            <a href="http://www.vosari.com/" target="_blank">天竺贸易</a>
+                            <a href="http://www.kaltendin.com.cn/" target="_blank">卡尔丹顿</a>
+                            <a href="http://www.yourmoon.com/" target="_blank">远梦家纺</a>
+                            <a href="http://uplusbattery.com/" target="_blank">理士</a>
+                            <a href="http://www.sdsjjt.com/" target="_blank">世基发展集团</a>
+                            <a href="http://www.binc.com.cn/" target="_blank">合生元</a>
+                            <a href="http://www.sangfor.com.cn/" target="_blank">深信服</a>
+
+                        </h6>
+                        <a href="case.html"></a>
+                    </div>
+                </li>
+                <li class="marL10 b21_li">
+                    <img src="/img/index2.jpg" />
+                    <div class="back"></div>
+                    <p>企业官方网站</p>
+                    <div class="b211" style="display:none;">
+                        <h6 class="marT10">
+                            <a href="http://www.nsccsz.gov.cn/" target="_blank">超算中心</a>
+                            <a href="http://www.mtl.cn/" target="_blank">风光秀丽</a>
+                            <a href="http://www.volfoni-rio.com/" target="_blank">睿沃丰亚</a>
+                            <a href="http://www.gloryharvestgroup.com/" target="_blank">万利佳官网</a>
+                            <a href="http://www.chainzone.com/" target="_blank">佛山青松</a>
+                            <a href="http://www.broan-nutone.com.cn/Default.aspx" target="_blank">白朗中国</a>
+                            <a href="http://www.bscapital.cn/" target="_blank">博时资本</a>
+                            <a href="http://www.idiadem.com/" target="_blank">中柏电脑</a>
+                            <a href="http://www.isun3d.com/" target="_blank">中科三维</a>
+                        </h6>
+                        <a href="case.html"></a>
+                    </div>
+                </li>
+                <li style="background-color:#19A6DB;">
+                    <p style="top:15px;">上市公司网站</p>
+                    <div class="b211">
+                        <h6 class="marT10">
+                            <a href="http://www.missionhillschina.com/zh-CN/" target="_blank">观澜湖集团</a>
+                            <a href="http://www.netac.com.cn/" target="_blank">朗科集团</a>
+                            <a href="http://www.flory.com.cn/" target="_blank">复荣集团</a>
+                            <a href="http://www.gzjpg.com/" target="_blank">金鹏集团</a>
+                            <a href="http://www.crtg-3.com/" target="_blank">中铁隧道集团</a>
+                            <a href="http://www.littleswan.com/swan/zh-cn/index.html" target="_blank">小天鹅集团</a>
+                            <a href="http://www.evoc.cn/" target="_blank">研祥智能</a>
+                            <a href="http://www.konka.com/" target="_blank">康佳集团</a>
+                        </h6>
+                        <a href="case.html"></a>
+                    </div>
+                </li>
+                <li style="background-color:#19A6DB;">
+                    <p style="top:15px;">电子商务平台</p>
+                    <div class="b211">
+                        <h6 class="marT10">
+                            <a href="http://www.fiyta.com.cn/" target="_blank">飞亚达商城</a>
+                            <a href="http://www.skyworthbox.com/" target="_blank">创维商城</a>
+                            <a href="http://shop.evoc.cn/" target="_blank">研祥商城</a>
+                            <a href="http://www.kaltendin.com.cn/" target="_blank">卡尔丹顿商城</a>
+                            <a href="http://www.shanchaguo.com/" target="_blank">神州通集团商城</a>
+                            <a href="http://www.hmovie.com.cn/" target="_blank">华谊商城</a>
+                        </h6>
+                        <a href="case.html"></a>
+                    </div>
+                </li>
+                <li class="b21_li">
+                    <img src="/img/index3.jpg" />
+                    <div class="back"></div>
+                    <p>门户网站</p>
+                    <div class="b211" style="display:none;">
+                        <h6 class="marT10">
+                            <a href="http://www.sz2011.org/" target="_blank">深圳大运网</a>
+                            <a href="http://www.igongyi.org.cn/" target="_blank">关爱行动公益基金会</a>
+                            <a href="http://www.chinese-no1.com/" target="_blank">华商门户网</a>
+                            <a href="http://www.shenzhendesign.org/" target="_blank">设计之都</a>
+                            <a href="http://www.akd.com.cn/" target="_blank">澳康达二手名车</a>
+                            <a href="http://szeb.sz.gov.cn/" target="_blank">深圳教育网</a>
+                        </h6>
+                        <a href="case.html"></a>
+                    </div>
+                </li>
+                <li class="marL10" style="background-color:#19A6DB;">
+                    <p style="top:15px;">手机网站</p>
+                    <div class="b211">
+                        <h6 class="b212" id="appWeb">
+                            <a href="javascript:void(0);"><img src="/img/er1.jpg" /></a>
+                            <a href="javascript:void(0);"><img src="/img/er2.jpg" /></a>
+                            <a href="javascript:void(0);"><img src="/img/er3.jpg" /></a>
+                            <a href="javascript:void(0);"><img src="/img/er4.jpg" /></a>
+                            <a href="javascript:void(0);"><img src="/img/er5.jpg" /></a>
+                            <a href="javascript:void(0);"><img src="/img/er6.jpg" /></a>
+                        </h6>
+                        <a href="case.html" style="bottom:20px;"></a>
+                    </div>
+                </li>
+                <li class="b21_li">
+                    <img src="/img/index4.jpg" />
+                    <div class="back"></div>
+                    <p>校园网站</p>
+                    <div class="b211" style="display:none;">
+                        <h6 class="marT10">
+                            <a href="http://www.rkec.cc/" target="_blank">深圳市英皇教育</a>
+                            <a href="http://www.mingdeschool.com/" target="_blank">明德实验学校</a>
+                            <a href="http://www.cuhk.edu.cn/" target="_blank">香港中文大学</a>
+                            <a href="http://www.hl114.com/" target="_blank">汉林高级学校</a>
+                            <a href="http://www.kmyz.edu.cn/" target="_blank">昆明高等专科学校</a>
+                        </h6>
+                        <a href="case.html"></a>
+                    </div>
+                </li>
+                <h1></h1>
+            </ul>
+        </div>
+        <div class="b3">
+            <div class="title">
+                <p class="width aNone">客户案例<a href="/case.html">更多+</a></p>
+                <h6></h6>
+                <h5>Core Business</h5>
+            </div>
+            <div class="width" style="overflow:hidden;">
+            <ul class="floLg marB10g" style="width:1300px;">
+                <li>
+                    <a href="http://www.missionhillschina.com/zh-CN/" target="_blank"><img src="/img/case1.jpg" /></a>
+                    <p class="hidEll"><a href="http://www.missionhillschina.com/zh-CN/" target="_blank">观澜湖集团</a></p>
+                </li>
+                <li>
+                    <a href="http://www.bohongkj.com/" target="_blank"><img src="/img/case2.jpg" /></a>
+                    <p class="hidEll"><a href="http://www.bohongkj.com/" target="_blank">博鸿科技</a></p>
+                </li>
+                <li>
+                    <a href="http://www.vosari.com/" target="_blank"><img src="/img/case3.jpg" /></a>
+                    <p class="hidEll"><a href="http://www.vosari.com/" target="_blank">天竺贸易</a></p>
+                </li>
+                <li>
+                    <a href="http://www.yourmoon.com/" target="_blank"><img src="/img/case4.jpg" /></a>
+                    <p class="hidEll"><a href="http://www.yourmoon.com/" target="_blank">远梦家纺</a></p>
+                </li>
+                <li>
+                    <a href="http://www.chinawanda.com/" target="_blank"><img src="/img/case5.jpg" /></a>
+                    <p class="hidEll"><a href="http://www.chinawanda.com/" target="_blank">中国万达集团</a></p>
+                </li>
+                <li>
+                    <a href="http://www.yuexiuproperty.com/" target="_blank"><img src="/img/case6.jpg" /></a>
+                    <p class="hidEll"><a href="http://www.yuexiuproperty.com/" target="_blank">越秀地产</a></p>
+                </li>
+                <h1></h1>
+            </ul>
+            </div>
+        </div>
+        <div class="b5">
+            <div class="b51 width aNone">
+                我们的客户<a href="/kehu.html">更多</a>
+                <span></span>
+            </div>
+        </div>
+        <div class="b6 floLg width">
+            <div><a href="http://www.bohongkj.com/" title="博鸿科技" target="_blank"><img src="/img/kehu1.jpg" /></a></div>
+            <div><a href="http://www.chinawanda.com/" title="中国万达集团" target="_blank"><img src="/img/kehu2.jpg" /></a></div>
+            <div><a href="http://www.yuexiuproperty.com/" title="越秀地产" target="_blank"><img src="/img/kehu3.png" /></a></div>
+            <div><a href="http://www.xiwangfoods.com/" title="喜旺集团" target="_blank"><img src="/img/kehu4.png" /></a></div>
+            <div><a href="http://www.hualingroup.cn/" title="桦林集团" target="_blank"><img src="/img/kehu5.png" /></a></div>
+            <div><a href="http://www.ruyige.net/" title="普陀山国际文化" target="_blank"><img src="/img/kehu6.png" /></a></div>
+            <div><a href="http://www.fengweiju.com/" title="丰味食品" target="_blank"><img src="/img/kehu7.png" /></a></div>
+            <div><a href="http://www.gstz888.com/" title="宜宾高胜投资" target="_blank"><img src="/img/kehu8.jpg" /></a></div>
+            <div><a href="http://www.chainzone.com/" title="佛山青松" target="_blank"><img src="/img/kehu9.png" /></a></div>
+            <div><a href="http://uplusbattery.com/" title="理士" target="_blank"><img src="/img/kehu10.jpg" /></a></div>
+            <h1></h1>
+        </div>
+        <div class="b4">
+            <div class="title">
+                <p class="width aNone">易风资讯<a href="/News/1.html">更多+</a></p>
+                <h6></h6>
+                <h5>Information</h5>
+            </div>
+            <ul class="width floLg" style="margin-top:20px;">
+                <li>
+                    <div><span>05</span>2015-03</div>
+                    <p class="hidEll"><a href="/News_xq/1.html">细节决定品质-设计就是不断打磨，用心体验的一种过</a></p>
+                    <h6><a href="/News_xq/1.html">首先不谈设计我想谈下剪头发，我们每个人都要修剪头发，特别是男人，以前我的头发是妈妈…</a></h6>
+                </li>
+                <li>
+                    <div><span>03</span>2014-08</div>
+                    <p class="hidEll"><a href="/News_xq/2.html">网站建设公司新人对销售的感悟</a></p>
+                    <h6><a href="/News_xq/2.html">什么是销售？百度了一下。“销售是创造、沟通与传送价值给顾客，及经营顾客关系以便让组织...</a></h6>
+                </li>
+                <li>
+                    <div><span>14</span>2013.11</div>
+                    <p class="hidEll"><a href="/News_xq/3.html">2014年网页设计及网站建设的趋势</a></p>
+                    <h6><a href="/News_xq/3.html">设计与开发之间本有一线界限，但当时代步入又一个十年，这个线变得更加模糊甚至感觉不到...</a></h6>
+                </li>
+                <li>
+                    <div><span>12</span>2013-11</div>
+                    <p class="hidEll"><a href="/News_xq/4.html">设计是什么,设计如何打动你</a></p>
+                    <h6><a href="/News_xq/4.html">设计是什么？是你画出来的那些图？是你脑海中那些闪闪发光的idea？还是让你深思的那些...</a></h6>
+                </li>
+                <li>
+                    <div><span>06</span>2013.10</div>
+                    <p class="hidEll"><a href="/News_xq/5.html">网站建设的特别之处,网站设计的优势</a></p>
+                    <h6><a href="/News_xq/5.html">任意一家企业要建设一个网站，其主要的关键在于要判断清楚其网站的只要作用 有些网站是为...</a></h6>
+                </li>
+                <li>
+                    <div><span>03</span>2013.10</div>
+                    <p class="hidEll"><a href="/News_xq/6.html">GUCCI古驰等奢侈品的品牌策略 奢侈品在亚洲的推广策略</a></p>
+                    <h6><a href="/News_xq/6.html">东京的银座，香港的铜锣湾，首尔的明洞，北京的新光天地....，这些亚洲不同国家和地区时...</a></h6>
+                </li>
+                <h1></h1>
+            </ul>
+        </div>
+    </div>
+    <!--底部-->
+    <div class="foot">
+        <div class="width" style="padding-top:20px;">
+            <div style="width:310px;float:left;">
+                <p class="title">易风业务单元<a href="/Construct/1.html">更多+</a></p>
+                <ul class="f1 floLg">
+                    <li><a href="/Construct/1.html">品牌创意网站建设</a></li>
+                    <li><a href="/Solution/1.html">教育培训网站解决方案</a></li>
+                    <li><a href="/Construct/2.html">企业官方网站建设</a></li>
+                    <li><a href="/Solution/2.html">软件IT网站解决方案</a></li>
+                    <li><a href="/Construct/3.html">上市公司网站建设</a></li>
+                    <li><a href="/Solution/3.html">手机数码网站解决方案</a></li>
+                    <li><a href="/Construct/4.html">B2C电子商务网站建设</a></li>
+                    <li><a href="/Solution/4.html">高端奢侈品网站解决方案</a></li>
+                    <li><a href="/Construct/5.html">门户类网站建设</a></li>
+                    <li><a href="/Solution/5.html">大型门户网站解决方案</a></li>
+                    <h1></h1>
+                </ul>
+            </div>
+            <div style="width:400px;margin-left:50px;float:left;">
+                <p class="title">我们的优势<a href="/About/2.html">更多+</a></p>
+                <ul class="f1 floLg">
+                    <li>7年专业互联网服务经验</li>
+                    <li>服务行业领袖超过70个</li>
+                    <li>有着专业的网站团队</li>
+                    <li>品牌传播与互联网技术并重</li>
+                    <li>大型企业互联网供应商</li>
+                    <li>多项互联网设计传播大奖</li>
+                    <li>B2C营销型网站领导者</li>
+                    <h1></h1>
+                </ul>
+            </div>
+            <div style="width:350px;margin-left:50px;float:left;">
+                <p class="title">关于易风<a href="/About/1.html">更多+</a></p>
+                <div>易风网络致力于互联网品牌建设与网络营销，专业领域包括网站建设、电子商务、移动互联网营销、系统平台开发， 与其他网站建设及系统开发公司不同，我们的整合解决方案结合了易风网络品牌建设经验和互联网整合营销的理念，并将策略和执行紧密结合，且不断评估并优化我们的方案，为客户提供一体化全方位的互联网品牌整合方案！</div>
+            </div>
+            <h1></h1>
+        </div>
+        <div class="f2">
+            <div class="width">
+                <p>友情链接</p>
+                <div class="floLg marR20g linH26">
+                    <a href="http://www.bjycxf.com/" target="_blank">北京网站制作</a>
+                    <a href="http://www.021ftp.cn/" target="_blank">上海网站建设</a>
+                    <a href="http://www.24gx.cn/" target="_blank">鹤翔网络公司</a>
+                    <a href="http://www.fangfaseo.com/" target="_blank">成都网络推广</a>
+                    <a href="http://www.wanhu.com.cn" target="_blank">广州网站建设</a>
+                    <a href="http://www.beeui.com/" target="_blank">毕友网</a>
+                    <a href="http://www.scgckj.com/" target="_blank">成都网站建设</a>
+                    <a href="http://www.bcdy.net" target="_blank">重庆网站建设</a>
+                    <a href="http://www.piedia.com" target="_blank">南京网站建设</a>
+                    <a href="http://www.swhl.com.cn" target="_blank">上海网站建设</a>
+                    <a href="http://www.fangfa.net" target="_blank">成都网络公司</a>
+                    <a href="http://www.hai126.net" target="_blank">海南网站建设</a>
+                    <a href="http://www.it0.cn" target="_blank">西安网站制作</a>
+                    <a href="http://www.1do.cn" target="_blank">北京网站建设</a>
+                    <a href="http://www.syhhidc.com/" target="_blank">沈阳网站建设</a>
+                    <a href="http://www.reeyee.cn/" target="_blank">南京网站建设</a>
+                    <a href="http://www.hunuo.com/" target="_blank">广州网站建设</a>
+                    <a href="http://www.ccxcn.com/" target="_blank">北京网站建设</a>
+                    <a href="http://www.178365.net" target="_blank">西安网站建设</a>
+                    <a href="http://www.eit0571.com" target="_blank">杭州网站建设</a>
+                    <a href="http://www.xdnet.cn/" target="_blank">网站建设</a>
+                    <a href="http://bj.58.com/wangzhan/" target="_blank">北京网站建设</a>
+                    <a href="http://www.ymars.com/" target="_blank">长沙网站建设</a>
+                    <a href="http://www.ynyes.com" target="_blank">昆明网站建设</a>
+                    <h1></h1>
+                </div>
+            </div>
+        </div>
+        <div class="f3"><div class="width">地址：珠海市香洲区南屏南围路51<span class="floR">易风网络 粤ICP备14096405号-1 Copyright 2015,all rights reserved Wind6.com</span></div></div>
+    </div>
+    <!--右边悬浮部分-->
+    <div id="RightFixed">
+        <a href="/About/1.html" class="r1"><img src="/img/right1.jpg" />实力</a>
+        <a href="/Case.html"><img src="/img/right2.jpg" />案例</a>
+        <a href="/Solution/1.html"><img src="/img/right3.jpg" />方案</a>
+        <a href="/Process.html"><img src="/img/right4.jpg" />流程</a>
+        <a href="/About/4.html#leave" class="r2"><img src="/img/right5.png" />客户留言</a>
+        <a href="http://wpa.qq.com/msgrd?v=3&uin=389022755&site=qq&menu=yes" target="_blank" class="r1"><img src="/img/right6.jpg" />客服</a>
+        <!--<a href="#"><img src="/img/right7.jpg" />留言</a>-->
+        <a href="javascript:$('body').animate({scrollTop:0},500);"><img src="/img/right8.jpg" /></a>
+    </div>
+</body>
+</html>

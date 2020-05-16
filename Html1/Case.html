@@ -1,0 +1,318 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>网站案例-易风网络</title>
+    <link rel="Stylesheet" type="text/css" href="/sys/css.css" />
+    <link rel="Stylesheet" type="text/css" href="/css/Master.css" />
+    <script type="text/javascript" src="/sys/jquery-1.8.3.min.js"></script>
+
+    <style type="text/css">
+        .body{background:#F4F4F4 url(/img/back3.jpg) no-repeat;}
+        .b1{padding:60px 0px 50px 0px;text-align:center;}
+        .b1 p{color:#848484;font-size:16px;}
+        .b1 h6{color:#616161;font-size:50px;}
+        .b2{margin-top:50px;overflow:hidden;}
+        .b2 ul{width:1300px;height:1050px;position:relative;}
+        .b2 li{width:366px;height:315px;padding:7px;margin:0px 20px 21px 0px;background-color:#fff;box-shadow:0px 0px 5px #bbb;position:absolute;left:0px;top:0px;}
+        .b2 li img{width:366px;height:276px;display:block;}
+        .b2 li p{font-size:18px;color:#333;line-height:40px;}
+        .b2 li h6{position:absolute;right:10px;bottom:10px;color:#0577BA;}
+        .b3{width:300px;line-height:34px;margin:30px 0px 40px 0px;font-size:16px;color:#7e7e7e;background-color:#fff;border-radius:100px;border:1px solid #ccc;}
+    </style>
+    <script type="text/javascript">
+        var data = [
+                { title: "观澜湖集团", img: "/img/case1.jpg", url: "http://www.missionhillschina.com/zh-CN/", type: "企业网站" }
+                , { title: "博鸿科技", img: "/img/case2.jpg", url: "http://www.bohongkj.com/", type: "企业网站" }
+                , { title: "天竺贸易", img: "/img/case3.jpg", url: "http://www.vosari.com/", type: "企业网站" }
+                , { title: "远梦家纺", img: "/img/case4.jpg", url: "http://www.yourmoon.com/", type: "企业网站" }
+                , { title: "中国万达集团", img: "/img/case5.jpg", url: "http://www.chinawanda.com/", type: "企业网站" }
+                , { title: "越秀地产", img: "/img/case6.jpg", url: "http://www.yuexiuproperty.com/", type: "企业网站" }
+                , { title: "金鹏集团", img: "/img/case7.jpg", url: "http://www.gzjpg.com/", type: "企业网站" }
+                , { title: "小牛在线p2p平台", img: "/img/case8.jpg", url: "http://www.xiaoniu66.com/", type: "企业网站" }
+                , { title: "明德实验学校", img: "/img/case9.jpg", url: "http://www.mingdeschool.com/", type: "校园网站" }
+                , { title: "朗科集团", img: "/img/case10.jpg", url: "http://www.netac.com.cn/", type: "企业网站" }
+                , { title: "世基发展集团", img: "/img/case11.jpg", url: "http://www.sdsjjt.com/", type: "企业网站" }
+                , { title: "深圳大运网", img: "/img/case12.jpg", url: "http://www.sz2011.org/", type: "门户网站" }
+                , { title: "超算中心", img: "/img/case13.jpg", url: "http://www.nsccsz.gov.cn/", type: "企业网站" }
+                , { title: "关爱行动公益基金会", img: "/img/case14.jpg", url: "http://www.igongyi.org.cn/", type: "门户网站" }
+                , { title: "深信服", img: "/img/case15.jpg", url: "http://www.sangfor.com.cn/", type: "企业网站" }
+                , { title: "上海车艺尚汽车服务有限公司", img: "/img/case16.jpg", url: "http://www.51shcars.com/", type: "企业网站" }
+                , { title: "研祥商城", img: "/img/case17.jpg", url: "http://shop.evoc.cn/", type: "电子商务" }
+                , { title: "兰芝", img: "/img/case18.jpg", url: "http://www.laneige.com.cn/main.jsp", type: "企业网站" }
+                , { title: "昆明高等专科学校", img: "/img/case19.jpg", url: "http://www.kmyz.edu.cn/", type: "校园网站" }
+                , { title: "中兴微代", img: "/img/case20.jpg", url: "http://www.zxfinance.com/", type: "企业网站" }
+                , { title: "养乐多", img: "/img/case21.jpg", url: "http://www.yakult.com.cn/", type: "企业网站" }
+                , { title: "绿宝广场", img: "/img/case22.jpg", url: "http://www.the-emerald-city.com/", type: "企业网站" }
+                , { title: "创维商城", img: "/img/case23.jpg", url: "http://www.skyworthbox.com/", type: "电子商务" }
+                , { title: "宜宾高胜投资", img: "/img/case24.jpg", url: "http://www.gstz888.com/", type: "企业网站" }
+                , { title: "卡尔丹顿", img: "/img/case25.jpg", url: "http://www.kaltendin.com.cn/", type: "企业网站" }
+                , { title: "深圳市英皇教育", img: "/img/case26.jpg", url: "http://www.rkec.cc/", type: "校园网站" }
+                , { title: "芳心草原艺商城", img: "/img/case27.jpg", url: "http://www.fxcyysc.com/", type: "企业网站" }
+                , { title: "华润厚木", img: "/img/case28.jpg", url: "http://www.crcatsugi.com/", type: "企业网站" }
+                , { title: "彼岸红杉", img: "/img/case29.jpg", url: "http://www.sequoiabeach.com/", type: "企业网站" }
+                , { title: "卡尔丹顿商城", img: "/img/case30.jpg", url: "http://www.kaltendin.com.cn/", type: "电子商务" }
+                , { title: "奔宝", img: "/img/case31.jpg", url: "http://www.benbaocar.com/", type: "企业网站" }
+                , { title: "博时基金", img: "/img/case32.jpg", url: "http://www.bosera.com/index.html", type: "企业网站" }
+                , { title: "神州通集团商城", img: "/img/case33.jpg", url: "http://www.shanchaguo.com/", type: "电子商务" }
+                , { title: "88财富p2p平台", img: "/img/case34.jpg", url: "http://www.yourmoon.com/", type: "企业网站" }
+                , { title: "喜旺集团", img: "/img/case35.jpg", url: "http://www.xiwangfoods.com/", type: "企业网站" }
+                , { title: "桦林集团", img: "/img/case36.jpg", url: "http://www.hualingroup.cn/", type: "企业网站" }
+                , { title: "华商门户网", img: "/img/case37.jpg", url: "http://www.chinese-no1.com/", type: "门户网站" }
+                , { title: "中铁隧道集团", img: "/img/case38.jpg", url: "http://www.crtg-3.com/", type: "企业网站" }
+                , { title: "风光秀丽", img: "/img/case39.jpg", url: "http://www.mtl.cn/", type: "企业网站" }
+                , { title: "华谊商城", img: "/img/case40.jpg", url: "http://www.hmovie.com.cn/", type: "电子商务" }
+                , { title: "理士", img: "/img/case41.jpg", url: "http://uplusbattery.com/", type: "企业网站" }
+                , { title: "音尔集团", img: "/img/case42.jpg", url: "http://www.hirosy.net/", type: "企业网站" }
+                , { title: "合生元", img: "/img/case43.jpg", url: "http://www.binc.com.cn/", type: "企业网站" }
+                , { title: "领航国际", img: "/img/case44.jpg", url: "http://www.lyigroup.com/?cn-is.html", type: "企业网站" }
+                , { title: "设计之都", img: "/img/case45.jpg", url: "http://www.shenzhendesign.org/", type: "门户网站" }
+                , { title: "四川天竺天文化产业有限公司", img: "/img/case46.jpg", url: "http://www.tztart.com/", type: "企业网站" }
+                , { title: "普陀山国际文化", img: "/img/case47.jpg", url: "http://www.ruyige.net/", type: "企业网站" }
+                , { title: "丰味食品", img: "/img/case48.jpg", url: "http://www.fengweiju.com/", type: "企业网站" }
+                , { title: "宜宾高胜投资", img: "/img/case49.jpg", url: "http://www.gstz888.com/", type: "企业网站" }
+                , { title: "澳康达二手名车", img: "/img/case50.jpg", url: "http://www.akd.com.cn/", type: "门户网站" }
+                , { title: "中科创官网", img: "/img/case51.jpg", url: "http://www.cf88.com.cn/", type: "企业网站" }
+                , { title: "计划宝贝", img: "/img/case52.jpg", url: "http://www.bbjh.cn/", type: "企业网站" }
+                , { title: "复荣集团", img: "/img/case53.jpg", url: "http://www.flory.com.cn/", type: "企业网站" }
+                , { title: "阿普丽佳（Aprica）中文官方网站", img: "/img/case54.jpg", url: "http://www.aprica.cn/", type: "企业网站" }
+                , { title: "良时集团", img: "/img/case55.jpg", url: "http://www.shlspv.com/", type: "企业网站" }
+                , { title: "立邦漆官方网站", img: "/img/case56.jpg", url: "http://www.nipponpaint.com.cn/", type: "企业网站" }
+                , { title: "海南椰岛集团", img: "/img/case57.jpg", url: "http://www.yedao.com/", type: "企业网站" }
+                , { title: "上海领商企业管理咨询有限公司", img: "/img/case58.jpg", url: "http://www.peilianshi.com/", type: "企业网站" }
+                , { title: "汉林高级学校", img: "/img/case59.jpg", url: "http://www.hl114.com/", type: "校园网站" }
+                , { title: "上海全筑建筑装饰集团股份有限公司", img: "/img/case60.jpg", url: "http://trendzone.com.cn/", type: "企业网站" }
+                , { title: "德默医药科技", img: "/img/case61.jpg", url: "http://www.demochem.com/", type: "企业网站" }
+                , { title: "美乐家", img: "/img/case62.jpg", url: "http://www.kronecn.com/", type: "企业网站" }
+                , { title: "华东师范大学社会发展学院", img: "/img/case63.jpg", url: "http://www.soci.ecnu.edu.cn/", type: "企业网站" }
+                , { title: "复荣集团", img: "/img/case64.jpg", url: "http://www.flory.com.cn/", type: "企业网站" }
+                , { title: "睿沃丰亚", img: "/img/case65.jpg", url: "http://www.volfoni-rio.com/", type: "企业网站" }
+                , { title: "万利佳官网", img: "/img/case66.jpg", url: "http://www.gloryharvestgroup.com/", type: "企业网站" }
+                , { title: "深圳教育网", img: "/img/case67.jpg", url: "http://szeb.sz.gov.cn/", type: "门户网站" }
+                , { title: "佛山青松", img: "/img/case68.jpg", url: "http://www.chainzone.com/", type: "企业网站" }
+                , { title: "白朗中国", img: "/img/case69.jpg", url: "http://www.broan-nutone.com.cn/Default.aspx", type: "企业网站" }
+                , { title: "香港中文大学", img: "/img/case70.jpg", url: "http://www.cuhk.edu.cn/", type: "校园网站" }
+                , { title: "博时资本", img: "/img/case71.jpg", url: "http://www.bscapital.cn/", type: "企业网站" }
+                , { title: "中柏电脑", img: "/img/case72.jpg", url: "http://www.idiadem.com/", type: "企业网站" }
+                , { title: "中科三维", img: "/img/case73.jpg", url: "http://www.isun3d.com/", type: "企业网站" }
+                , { title: "王牌机械", img: "/img/case74.jpg", url: "http://www.baodie.cn/", type: "企业网站" }
+                , { title: "启星美语幼儿园", img: "/img/case75.jpg", url: "http://www.bsaschool.com/en/index.asp", type: "企业网站" }
+                , { title: "海昌鲸鲨馆", img: "/img/case76.jpg", url: "http://www.ytjsg.com/index.php?cn-n.html", type: "企业网站" }
+                , { title: "报关公司", img: "/img/case77.jpg", url: "http://www.bj-shipping.com/", type: "企业网站" }
+        ];
+        $(function () {
+            pager();
+        });
+
+        window.onmousewheel = function () {
+            if ($(document).scrollTop() + $(window).height() > $(document).height() - 300) {
+                pager();
+            }
+        }
+        var pageIndex = 1;
+        function pager() {
+            //获取数据
+            var json = [];
+            $(data).each(function (index) {
+                if (index < pageIndex * 9 && index >= (pageIndex - 1) * 9) {
+                    json.push(this);
+                }
+            });
+            if (json.length > 0) {
+                //用动画显示数据
+                var ul = $('<ul></ul>');
+                $('#content').append(ul);
+                $(json).each(function (index) {
+                    var li = $('<li><a href="' + this.url + '" target="_blank"><img src="' + this.img + '" /></a><p><a href="' + this.url + '" target="_blank">' + this.title + '</a></p><h6><a href="' + this.url + '" target="_blank">' + this.type + '</a></h6></li>');
+                    ul.append(li);
+                    index = index + 1;
+                    var left = index % 3 == 0 ? "800px" : index % 2 == 0 ? "400px" : "0px";
+                    var top = index > 6 ? "700px" : index > 3 ? "350px" : "0px";
+                    li.animate({ left: left, top: top }, 500);
+                });
+                pageIndex++;
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="top width">
+        <img src="/img/logo.jpg" class="floL" />
+        <div class="floR">
+            <div class="t1">
+                <span style="background:url(/img/ico.png) no-repeat 0px -207px;">服务热线：13418980092</span>
+                <span class="marL20" style="background:url(/img/qq.jpg) no-repeat 0px 4px;">客服QQ：389022755</span>
+                <em class="floR"><a href="/About/4.html">联系我们</a></em>
+                <em class="floR"><a href="http://wpa.qq.com/msgrd?v=3&uin=389022755&site=qq&menu=yes" target="_blank">在线留言</a></em>
+                <h1></h1>
+            </div>
+            <ul class="nav floLg aNone" id="nav">
+                <li><a href="/Index.html">首页</a></li>
+                <li>
+                    <b>·</b><a href="/Case.html">成功案例</a>
+                    <div class="nav1">
+                        <div class="nav2"></div>
+                        <a href="/case.html">成功案例</a>
+                        <a href="/kehu.html">客户列表</a>
+                    </div>
+                </li>
+                <li><b>·</b><a href="/News/1.html">易风资讯</a></li>
+                <li>
+                    <b>·</b><a href="/Solution/1.html">解决方案</a>
+                    <div class="nav1" style="left:-200px;width:500px;text-align:left;">
+                        <div class="nav2" style="left:260px;"></div>
+                        <div style="float:left;padding:0px 40px 0px 20px;border-right:1px solid #ccc;">
+                        <a href="/Solution/1.html">教育培训</a>
+                        <a href="/Solution/2.html">软件IT</a>
+                        <a href="/Solution/3.html">手机数码</a>
+                        <a href="/Solution/4.html">钟表高端奢侈品</a>
+                        <a href="/Solution/5.html">大型门户</a>
+                        <a href="/Solution/6.html">网上商城电子商务</a>
+                        <a href="/Solution/7.html">房地产,地产项目</a>
+                        </div>
+                        <div style="float:left;padding:0px 40px 0px 30px;border-right:1px solid #ccc;">
+                        <a href="/Solution/8.html">集团上市公司官</a>
+                        <a href="/Solution/9.html">数码,电器产品</a>
+                        <a href="/Solution/10.html">美容,化妆品行业</a>
+                        <a href="/Solution/11.html">装饰公司</a>
+                        <a href="/Solution/12.html">金融行业</a>
+                        <a href="/Solution/13.html">医药医疗</a>
+                        <a href="/Solution/14.html">LED行业</a>
+                        </div>
+                        <div style="float:left;padding:0px 40px 0px 30px;">
+                        <a href="/Solution/15.html">节能环保</a>
+                        <a href="/Solution/16.html">物流行业</a>
+                        <a href="/Solution/17.html">安防行业</a>
+                        <a href="/Solution/18.html">旅游公司</a>
+                        <a href="/Solution/19.html">学校校园</a>
+                        <a href="/Solution/20.html">服装箱包皮具</a>
+                        <a href="/Solution/21.html">营销型网站</a>
+                        </div>
+                        <h1></h1>
+                    </div>
+                </li>
+                <li><b>·</b><a href="/Process.html">服务流程</a></li>
+                <li>
+                    <b>·</b><a href="/Construct/1.html">网站建设</a>
+                    <div class="nav1">
+                        <div class="nav2"></div>
+                        <a href="/Construct/1.html">品牌创意网站</a>
+                        <a href="/Construct/2.html">企业官方网站</a>
+                        <a href="/Construct/3.html">上市公司网站</a>
+                        <a href="/Construct/4.html">B2C电子商务网站</a>
+                        <a href="/Construct/5.html">门户类网站</a>
+                        <a href="/Construct/6.html">专题活动网站</a>
+                    </div>
+                </li>
+                <li>
+                    <b>·</b><a href="/About/1.html">我们的实力</a>
+                    <div class="nav1">
+                        <div class="nav2"></div>
+                        <a href="/About/1.html">关于易风</a>
+                        <a href="/About/2.html">易风与众不同</a>
+                        <a href="/About/3.html">理念与信仰</a>
+                        <a href="/About/4.html">联系我们</a>
+                    </div>
+                </li>
+                <h1></h1>
+            </ul>
+        </div>
+        <h1></h1>
+        <script type="text/javascript">            $('#nav li').hover(function () { $(this).children('.nav1').slideDown(300); }, function () { $(this).children('.nav1').slideUp(300); });</script>
+    </div>
+    <div class="body">
+        <div class="b1">
+            <p>CREATE A DREAM BRAND FOR DREAMERS</p>
+            <h6>为梦想者创造梦想品牌</h6>
+            <p>入不令你超越对手，我们的工作将毫无意义</p>
+        </div>
+        <div class="znav">
+            <a href="javascript:void(0);" class="zna1">网站案例</a>
+            <a href="/kehu.html">客户列表</a>
+        </div>
+        <div class="b2 width" id="content">
+            <!--
+            <ul>
+                <li>
+                    <a href="#"><img src="/img/case1.jpg" /></a>
+                    <p><a href="#">飞亚达</a></p>
+                    <h6><a href="#">品牌网站</a></h6>
+                </li>
+            </ul>
+            -->
+        </div>
+        <div class="textC"><input type="button" value="加载更多" class="b3" onclick="pager();" /></div>
+    </div>
+    <div class="foot">
+        <div class="width" style="padding-top:20px;">
+            <div style="width:310px;float:left;">
+                <p class="title">易风业务单元<a href="/Construct/1.html">更多+</a></p>
+                <ul class="f1 floLg">
+                    <li><a href="/Construct/1.html">品牌创意网站建设</a></li>
+                    <li><a href="/Solution/1.html">教育培训网站解决方案</a></li>
+                    <li><a href="/Construct/2.html">企业官方网站建设</a></li>
+                    <li><a href="/Solution/2.html">软件IT网站解决方案</a></li>
+                    <li><a href="/Construct/3.html">上市公司网站建设</a></li>
+                    <li><a href="/Solution/3.html">手机数码网站解决方案</a></li>
+                    <li><a href="/Construct/4.html">B2C电子商务网站建设</a></li>
+                    <li><a href="/Solution/4.html">高端奢侈品网站解决方案</a></li>
+                    <li><a href="/Construct/5.html">门户类网站建设</a></li>
+                    <li><a href="/Solution/5.html">大型门户网站解决方案</a></li>
+                    <h1></h1>
+                </ul>
+            </div>
+            <div style="width:400px;margin-left:50px;float:left;">
+                <p class="title">我们的优势<a href="/About/2.html">更多+</a></p>
+                <ul class="f1 floLg">
+                    <li>7年专业互联网服务经验</li>
+                    <li>服务行业领袖超过70个</li>
+                    <li>有着专业的网站团队</li>
+                    <li>品牌传播与互联网技术并重</li>
+                    <li>大型企业互联网供应商</li>
+                    <li>多项互联网设计传播大奖</li>
+                    <li>B2C营销型网站领导者</li>
+                    <h1></h1>
+                </ul>
+            </div>
+            <div style="width:350px;margin-left:50px;float:left;">
+                <p class="title">关于易风<a href="/About/1.html">更多+</a></p>
+                <div>易风网络致力于互联网品牌建设与网络营销，专业领域包括网站建设、电子商务、移动互联网营销、系统平台开发， 与其他网站建设及系统开发公司不同，我们的整合解决方案结合了易风网络品牌建设经验和互联网整合营销的理念，并将策略和执行紧密结合，且不断评估并优化我们的方案，为客户提供一体化全方位的互联网品牌整合方案！</div>
+            </div>
+            <h1></h1>
+        </div>
+        <div class="f2">
+            <div class="width">
+                <p>友情链接</p>
+                <div class="floLg marR20g linH26">
+                    <a href="http://www.bjycxf.com/" target="_blank">北京网站制作</a>
+                    <a href="http://www.021ftp.cn/" target="_blank">上海网站建设</a>
+                    <a href="http://www.24gx.cn/" target="_blank">鹤翔网络公司</a>
+                    <a href="http://www.fangfaseo.com/" target="_blank">成都网络推广</a>
+                    <a href="http://www.wanhu.com.cn" target="_blank">广州网站建设</a>
+                    <a href="http://www.beeui.com/" target="_blank">毕友网</a>
+                    <a href="http://www.scgckj.com/" target="_blank">成都网站建设</a>
+                    <a href="http://www.bcdy.net" target="_blank">重庆网站建设</a>
+                    <a href="http://www.piedia.com" target="_blank">南京网站建设</a>
+                    <a href="http://www.swhl.com.cn" target="_blank">上海网站建设</a>
+                    <a href="http://www.fangfa.net" target="_blank">成都网络公司</a>
+                    <a href="http://www.hai126.net" target="_blank">海南网站建设</a>
+                    <a href="http://www.it0.cn" target="_blank">西安网站制作</a>
+                    <a href="http://www.1do.cn" target="_blank">北京网站建设</a>
+                    <a href="http://www.syhhidc.com/" target="_blank">沈阳网站建设</a>
+                    <a href="http://www.reeyee.cn/" target="_blank">南京网站建设</a>
+                    <a href="http://www.hunuo.com/" target="_blank">广州网站建设</a>
+                    <a href="http://www.ccxcn.com/" target="_blank">北京网站建设</a>
+                    <a href="http://www.178365.net" target="_blank">西安网站建设</a>
+                    <a href="http://www.eit0571.com" target="_blank">杭州网站建设</a>
+                    <a href="http://www.xdnet.cn/" target="_blank">网站建设</a>
+                    <a href="http://bj.58.com/wangzhan/" target="_blank">北京网站建设</a>
+                    <a href="http://www.ymars.com/" target="_blank">长沙网站建设</a>
+                    <a href="http://www.ynyes.com" target="_blank">昆明网站建设</a>
+                    <h1></h1>
+                </div>
+            </div>
+        </div>
+        <div class="f3"><div class="width">地址：珠海市香洲区南屏南围路51<span class="floR">易风网络 粤ICP备14096405号-1 Copyright 2015,all rights reserved Wind6.com</span></div></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Html1", "Html1\", "{53844B34-3021-4464-957B-CBB0A33395D2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/Html1"
+		Debug.AspNetCompiler.PhysicalPath = "Html1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Html1\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Html1"
+		Release.AspNetCompiler.PhysicalPath = "Html1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Html1\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "6794"
+		VWDVirtualPath = "/"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Html", "Html\", "{7CDBD044-733A-454B-9EAB-2D09FEEE7683}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/Html"
+		Debug.AspNetCompiler.PhysicalPath = "Html\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Html\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Html"
+		Release.AspNetCompiler.PhysicalPath = "Html\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Html\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "3113"
+		VWDVirtualPath = "/"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Email", "Email\Email.csproj", "{076ABAF4-F9FC-45F4-8FCB-CDA23BDEB36E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53844B34-3021-4464-957B-CBB0A33395D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53844B34-3021-4464-957B-CBB0A33395D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53844B34-3021-4464-957B-CBB0A33395D2}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{53844B34-3021-4464-957B-CBB0A33395D2}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{53844B34-3021-4464-957B-CBB0A33395D2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{53844B34-3021-4464-957B-CBB0A33395D2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{53844B34-3021-4464-957B-CBB0A33395D2}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{53844B34-3021-4464-957B-CBB0A33395D2}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{53844B34-3021-4464-957B-CBB0A33395D2}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
+		{53844B34-3021-4464-957B-CBB0A33395D2}.Release|x86.ActiveCfg = Debug|Any CPU
+		{7CDBD044-733A-454B-9EAB-2D09FEEE7683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CDBD044-733A-454B-9EAB-2D09FEEE7683}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CDBD044-733A-454B-9EAB-2D09FEEE7683}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7CDBD044-733A-454B-9EAB-2D09FEEE7683}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7CDBD044-733A-454B-9EAB-2D09FEEE7683}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7CDBD044-733A-454B-9EAB-2D09FEEE7683}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CDBD044-733A-454B-9EAB-2D09FEEE7683}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{7CDBD044-733A-454B-9EAB-2D09FEEE7683}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7CDBD044-733A-454B-9EAB-2D09FEEE7683}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7CDBD044-733A-454B-9EAB-2D09FEEE7683}.Release|x86.ActiveCfg = Debug|Any CPU
+		{076ABAF4-F9FC-45F4-8FCB-CDA23BDEB36E}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{076ABAF4-F9FC-45F4-8FCB-CDA23BDEB36E}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{076ABAF4-F9FC-45F4-8FCB-CDA23BDEB36E}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{076ABAF4-F9FC-45F4-8FCB-CDA23BDEB36E}.Debug|x86.ActiveCfg = Debug|x86
+		{076ABAF4-F9FC-45F4-8FCB-CDA23BDEB36E}.Debug|x86.Build.0 = Debug|x86
+		{076ABAF4-F9FC-45F4-8FCB-CDA23BDEB36E}.Release|Any CPU.ActiveCfg = Release|x86
+		{076ABAF4-F9FC-45F4-8FCB-CDA23BDEB36E}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{076ABAF4-F9FC-45F4-8FCB-CDA23BDEB36E}.Release|Mixed Platforms.Build.0 = Release|x86
+		{076ABAF4-F9FC-45F4-8FCB-CDA23BDEB36E}.Release|x86.ActiveCfg = Release|x86
+		{076ABAF4-F9FC-45F4-8FCB-CDA23BDEB36E}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

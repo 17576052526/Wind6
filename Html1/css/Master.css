@@ -1,0 +1,33 @@
+﻿body{font-family: "微软雅黑";}
+.width{width: 1180px;margin: 0px auto;}
+.top{padding: 20px 0px 0px 0px;}
+.top .nav{margin-top: 10px;padding-top: 7px;border-top: 1px solid #E7E7E7;}
+.top .nav li{position:relative;padding-bottom:15px;}
+.top .nav li>a{font-size: 14px;}
+.top .nav li a:hover{color: Red;}
+.top .nav li b{font-size: 14px;margin:0px 17px;cursor: default;}
+.top .nav .nav1{position:absolute;left:15px;top:41px;z-index:2;min-width:80px;padding:10px;background-color:#fff;box-shadow:0px 0px 5px #ccc;text-align:center;display:none;}
+.top .nav .nav1 a{line-height:30px;font-size:14px;white-space: nowrap;display:block;}
+.top .nav .nav2{position:absolute;top:-15px;left:45px;border:7px solid transparent;border-top:7px solid #EB3900;}
+.t1 span{line-height: 24px;padding-left: 25px;font-size: 15px;color: #eb3900;display: inline-block;}
+.t1 em{font-size: 14px;line-height: 24px;padding-right: 15px;margin-left:12px;background: url(/img/ico.png) no-repeat 65px -231px;}
+.foot{font-size: 13px;background: url(/img/back2.gif) repeat-x;color: #9b9b9b;}
+.foot a{color: #9b9b9b;}
+.foot a:hover{color: #fff;text-decoration: none;}
+.foot .title{line-height: 44px;margin-bottom: 20px;font-size: 15px;color: #ffffff;border-bottom: 1px solid #92381D;}
+.foot .title a{color: #ffffff;float: right;font-size: 13px;}
+.f1 li{width: 50%;font-size: 14px;}
+.f2{margin-top: 30px;padding-top: 10px;border-top: 1px solid #444;}
+.f2 p{line-height: 40px;font-size: 15px;color: #fff;}
+.f3{margin-top: 20px;line-height: 56px;border-top: 1px solid #444;}
+#RightFixed{width: 35px;padding: 0px 10px;position: fixed;right: 0px;top: 0px;bottom: 0px;background-color: #2B2B2B;overflow: hidden;}
+#RightFixed a{color: #bbb;display: block;text-align: center;margin-top: 10px;padding-top: 14px;border-top: 1px solid #454545;font-size: 14px;}
+#RightFixed a:hover{color:#EB3900;}
+#RightFixed img{width: 21px;margin: 0px auto 5px auto;display: block;}
+#RightFixed .r1{padding-top: 0px;border-top-style: none;}
+#RightFixed .r2{background-color: #EB3900;color: #fff;padding: 8px 5px;line-height: 20px;margin-bottom: 80px;}
+
+
+.znav{text-align:center;line-height:26px;}
+.znav a{padding:0px 25px;margin:7px 6px;background-color:#fff;border-radius:30px;color:#7E7E7E;font-size:14px;display:inline-block;}
+.znav .zna1,.znav a:hover{ text-decoration:none;background-color:#EB3900;color:#fff;}

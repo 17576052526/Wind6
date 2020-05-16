@@ -1,0 +1,73 @@
+﻿html,body,form,div,ul,ol,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6{margin: 0px;padding: 0px;}
+html,body{height:100%;}
+body
+{
+    line-height:1.7;      /* 相对值*/
+    color: #555;
+    font-size:12px;     /* font-size 不能和 font-family合并 */
+    font-family:"宋体",Arial;      /* 宋体解决尖括号 '>' 变的好看*/
+    word-break:break-all;    /* 把单词截断 */
+}
+h2,h3,h4,h5,h6{font-weight:normal;font-size:12px;}  /* h1清除浮动 */
+ol,ul{line-height:24px;list-style: none;}
+a{color:inherit;text-decoration: none;}
+a:hover{color:#007BC4;}
+a img{border-style:none;}
+em,i{font-style:normal;}
+table{border-collapse: collapse;}   /*表示表格的两条边框合并成一条*/
+/*---------------------------------------------------------- 类样式 ----------------------------------------------------------*/
+.aNone:hover,.aNone a:hover{text-decoration:none;}
+.colR{color:Red;}
+.colFFF{color:#fff;}
+.dvm{display:inline-block;vertical-align:middle;}
+.borR{border: 1px solid red;}
+.textR{text-align:right;}
+.textC{text-align:center;}
+.hidEll{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+
+.floL{float:left;}
+.floLg>*{float:left;}
+.floR{float:right;}
+.floRg>*{float:right;}
+.floLg>h1,.floRg>h1,h1{width:0px;height:0px;line-height:0px; margin:0px;padding:0px;float:none;clear:both;}    /* h1清除浮动 */
+
+.linH22{line-height:22px;}
+.linH26{line-height:26px;}
+.linH28{line-height:28px;}
+.linH30{line-height:30px;}
+.linH35{line-height:35px;}
+.linH40{line-height:40px;}
+
+.padL10{padding-left:10px;}
+.padL15{padding-left:15px;}
+.padL20{padding-left:20px;}
+.padLR5{padding-left:5px;padding-right:3px;}
+.padLR10{padding-left:10px;padding-right:7px;}
+.padT10{padding-top:10px;}
+.padT15{padding-top:15px;}
+.padT20{padding-top:20px;}
+.padB10{padding-bottom:10px;}
+.padB15{padding-bottom:15px;}
+.padB20{padding-bottom:20px;}
+.pad5{padding:3px 3px 0px 5px;}
+.pad10{padding:5px 7px 7px 10px;}    /* 若行高为24px 则有6px被行高占据 */
+.pad15{padding:10px 10px 10px 15px;}
+
+.marT10{margin-top:10px;}
+.marT15{margin-top:15px;}
+.marT20{margin-top:20px;}
+.marB10{margin-bottom:10px;}
+.marB15{margin-bottom:15px;}
+.marB20{margin-bottom:20px;}
+.marL10{margin-left:10px;}
+.marL15{margin-left:15px;}
+.marL20{margin-left:20px;}
+.marR10{margin-right:10px;}
+.marR15{margin-right:15px;}
+.marR20{margin-right:20px;}
+.marB10g>*{margin-bottom:10px;}
+.marB15g>*{margin-bottom:15px;}
+.marB20g>*{margin-bottom:20px;}
+.marR10g>*{margin-right:10px;}
+.marR15g>*{margin-right:15px;}
+.marR20g>*{margin-right:20px;}

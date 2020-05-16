@@ -1,0 +1,36 @@
+﻿body,div, ul,ol,li, dl, dt, dd, h1, h2, h3, h4, h5, h6, p,hr,  form, input, select, textarea, iframe, table, th, td,span{margin: 0px;padding: 0px;}
+ol,ul{list-style:none;}
+a img{border:none;}
+#WindFade,#WindFade .WindDiv,#WindFade .WindDiv ul li,#WindFade .WindDiv ul li a
+{
+    width:560px;
+    height:460px;
+}
+#WindFade{position:relative;}
+#WindFade .WindDiv{}
+#WindFade .WindDiv ul li{display:none;left:0px;top:0px;}
+#WindFade .WindDiv ul li a{display:block;background-repeat:no-repeat;background-size:cover;}
+/*---按钮---*/
+#WindFade .WindBtn
+{
+    position:absolute;
+    left:48%;
+    bottom:10px;
+}
+#WindFade .WindBtn_li
+{
+    width:14px;
+    height:19px;
+    line-height:20px;
+    margin-right:10px;
+    text-align:center;
+    font-weight:bold;
+    font-family:Arial;
+    cursor:pointer;
+    background:url(/img/icon.png) no-repeat 0px -19px;
+    float:left;
+}
+#WindFade .WindBtn_li_hover
+{
+    background:url(/img/icon.png) no-repeat 0px 5px;
+}
